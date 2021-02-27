@@ -38,12 +38,16 @@ import requests
 # r = requests.get("https://infobae.com")
 # print(r.status_code)
 
-name = input("Your name ?")
-print("Hello, ", (name))
+# name = input("Your name ?")
+# print("Hello, ", (name))
 
 
-def greet(who_to_greet):
-    greeting = "hello {}".format(who_to_greet)
-    return greeting
+# def greet(who_to_greet):
+#     greeting = "hello {}".format(who_to_greet)
+#     return greeting
 
-    print(greet("Juan"))
+#     print(greet("Juan"))
+
+
+r = requests.get("infobae.com")
+print(r.status_code)
