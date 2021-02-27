@@ -1,5 +1,3 @@
-import math
-import sys
 from os import rename
 
 import requests
@@ -7,9 +5,10 @@ import requests
 # print(sys.executable)
 
 
-# def greet (who_to_greet) :
-#     greeting = 'hello, {}'.format(who_to_greet)
+# def greet(who_to_greet):
+#     greeting = "hello, {}".format(who_to_greet)
 #     return greeting
+
 
 # print (greet('Juan'))
 
@@ -41,3 +40,10 @@ import requests
 
 name = input("Your name ?")
 print("Hello, ", (name))
+
+
+def greet(who_to_greet):
+    greeting = "hello {}".format(who_to_greet)
+    return greeting
+
+    print(greet("Juan"))
